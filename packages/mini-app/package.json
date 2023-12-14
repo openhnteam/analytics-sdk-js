@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "火鹏运营平台小程序端sdk",
   "author": "ly",
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "main": "dist/mini-app.min.js",
   "module": "dist/mini-app.esm.js",
   "types": "dist/mini-app.d.ts",
@@ -16,7 +16,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "bugs": {
     "url": "https://github.com/openhnteam/analytics-sdk-js/issues"

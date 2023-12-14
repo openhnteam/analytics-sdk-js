@@ -28,6 +28,7 @@ import firebird from 'fire-bird-mini-sdk'
 // 初始化函数
 firebird.init({
   appKey: 'appKey',
+  salt: 'xxx',
   appVersion: 'appVersion',
   host: '',
   uni: uni, // 依赖于uniapp的uni实例

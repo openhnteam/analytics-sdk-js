@@ -68,6 +68,7 @@ import firebird from 'fire-bird-browser-sdk'
 // 初始化函数
 firebird.init({
   appKey: 'appKey',
+  salt: 'xxx',
   appVersion: 'appVersion',
   host: '',
   appUserId: '' // 可选：用户的id

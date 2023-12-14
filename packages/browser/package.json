@@ -1,6 +1,6 @@
 {
   "name": "fire-bird-browser-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "火鹏运营平台web端sdk",
   "author": "ly",
   "license": "Apache License 2.0",
@@ -14,11 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/openhnteam/analytics-sdk-js.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "bugs": {
     "url": "https://github.com/openhnteam/analytics-sdk-js/issues"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "keywords": [
     "firebirdjs",

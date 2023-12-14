@@ -18,8 +18,9 @@ import firebird from 'fire-bird-browser-sdk'
 // envType 标识接入环境。 dev:测试环境，prod:生产。 
 firebird.init({
   appKey: 'appKey',
+  salt: 'xxx',
   appVersion: 'appVersion',
-  dns: '',
+  host: '',
   appUserId: '' // 可选：用户的id
 })
 ```

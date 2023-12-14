@@ -18,6 +18,7 @@ import firebird from 'fire-bird-mini-sdk'
 // envType 标识接入环境。 dev:测试环境，prod:生产。 
 firebird.init({
   appKey: 'appKey',
+  salt: 'xxx',
   appVersion: 'appVersion',
   host: '',
   uni: uni, // 依赖于uniapp的uni实例

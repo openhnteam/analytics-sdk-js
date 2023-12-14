@@ -1,0 +1,30 @@
+{
+  "name": "fire-bird-mini-sdk",
+  "version": "1.0.0",
+  "description": "火鹏运营平台小程序端sdk",
+  "author": "ly",
+  "license": "MIT",
+  "main": "dist/mini-app.min.js",
+  "module": "dist/mini-app.esm.js",
+  "types": "dist/mini-app.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openhnteam/analytics-sdk-js.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
+  },
+  "bugs": {
+    "url": "https://github.com/openhnteam/analytics-sdk-js/issues"
+  },
+  "keywords": [
+    "firebirdjs",
+    "sdk",
+    "monitor"
+  ],
+  "dependencies": {}
+}
